@@ -26,7 +26,7 @@ def get_gate(request):
 def getArrivalTime(gmaps, data, orig : dict,dest : dict, arrival_airport : datetime):
     '''Takes orig and dest as dictionaries and returns the duration in traffic in minutes'''
     #format of orig or dest needs to be {"lat": 30.6290011,"lng": -96.3588808}
-    directions = gmaps.directions(orig, dest, arrival_time = arrival_airport)
+    directions = gmaps.directions(orig, dest, mode = 'walking', arrival_time = arrival_airport)
      # Check if there's a valid result
     if data['rows'][0]['elements'][0]['status'] == 'OK':
         duration  = directions[0]['legs'][0]['duration']['value'] / 60
