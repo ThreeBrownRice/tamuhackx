@@ -1,7 +1,6 @@
 from django.apps import AppConfig
 
 
-class MiscTimeConfig(AppConfig):
+class DepartureTimeConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'misc_time'
-    
+    name = 'departure_time'

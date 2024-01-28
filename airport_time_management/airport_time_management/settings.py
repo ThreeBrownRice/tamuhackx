@@ -31,6 +31,9 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'misc_time.apps.MiscTimeConfig',
+    'gate_time.apps.GateTimeConfig',
+    'departure_time.apps.DepartureTimeConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

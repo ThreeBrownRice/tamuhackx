@@ -1,0 +1,40 @@
+{
+  "departure-time": {
+    "flightNumber": "4211",
+    "origin": {
+      "code": "ATL",
+      "city": "Atlanta",
+      "timezone": "America/New_York",
+      "location": {
+        "latitude": 33.6404,
+        "longitude": -84.4198
+      }
+    },
+    "destination": {
+      "code": "BWI",
+      "city": "Baltimore",
+      "timezone": "America/New_York",
+      "location": {
+        "latitude": 39.1774,
+        "longitude": -76.6684
+      }
+    },
+    "distance": 577,
+    "duration": {
+      "locale": "1h 34m",
+      "hours": 1,
+      "minutes": 34
+    },
+    "departureTime": "2007-03-23T20:02:00.000-04:00",
+    "arrivalTime": "2007-03-23T21:36:00.000-04:00",
+    "aircraft": {
+      "model": "321",
+      "passengerCapacity": {
+        "total": 181,
+        "main": 165,
+        "first": 16
+      },
+      "speed": 400
+    }
+  }
+}
